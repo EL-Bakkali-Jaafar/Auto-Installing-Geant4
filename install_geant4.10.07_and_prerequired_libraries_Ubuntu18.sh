@@ -5,12 +5,10 @@
 #E-mail: jaafar.elbakkali.pro@gmail.com
 #08/02/2021:
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-cd ..
-interdosi_dir=$(pwd)
 number_of_cores=$(nproc)
 mkdir -p prerequired_libraries
 cd prerequired_libraries
-# prerequiered ubuntu libraries.
+# prerequiered Ubuntu libraries.
 sudo apt-get install libxaw7-dev libxaw7 mesa-common-dev libglu1-mesa-dev -y qt5-default libicu-dev valgrind
 # cmake library.
 wget -nc https://github.com/Kitware/CMake/releases/download/v3.14.0-rc4/cmake-3.14.0-rc4.tar.gz
